@@ -72,7 +72,7 @@ return view.extend({
 
 		o = s.option(form.Value, 'listen_port', _('Listen port'));
 		o.datatype = 'port';
-		o.default = '8989';
+		o.default = '8088';
 		o.rmempty = false;
 
 		o = s.option(form.Value, 'root_path', _('Root directory'));
